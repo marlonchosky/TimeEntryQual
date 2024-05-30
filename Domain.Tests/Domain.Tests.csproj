@@ -1,0 +1,61 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <PackageReference Include="Moq" Version="4.20.70" />
+    <PackageReference Include="xunit" Version="2.5.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="AdditionalLogics\HistoricTimeEntriesAndUserSettingsVerifierTests\Data\AfterDateButTimeIsBeforeTheValidTimeSlot.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="AdditionalLogics\HistoricTimeEntriesAndUserSettingsVerifierTests\Data\DayAfterAndValidTime.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="AdditionalLogics\HistoricTimeEntriesAndUserSettingsVerifierTests\Data\TimeExceedsValidTimeSlotForDayAfter.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="AdditionalLogics\HistoricTimeEntriesAndUserSettingsVerifierTests\Data\DateExceededForMoreThanOneDay.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="AdditionalLogics\HistoricTimeEntriesAndUserSettingsVerifierTests\Data\TimeExceedsValidTimeSlotForSameDate.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="AdditionalLogics\HistoricTimeEntriesAndUserSettingsVerifierTests\Data\TheCurrentDateTimeIsInTheTimeSlot.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="AdditionalLogics\HistoricTimeEntriesAndUserSettingsVerifierTests\Data\SameDateButTimeIsBeforeTheValidTimeSlot.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="AdditionalLogics\HistoricTimeEntriesAndUserSettingsVerifierTests\Data\DateIsPreviousToTheLatestTimeEntry.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="AdditionalLogics\HtmlToRecordHistoryTransformerTests\WithoutTimeOut.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="AdditionalLogics\HtmlToRecordHistoryTransformerTests\WithTimeOut.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,35 @@
+[
+  {
+    "latestDate": "2024-04-07",
+    "latestTimeIn": "08:30:00.000",
+    "latestTimeOut": null,
+    "currentDateTime": "2024-04-07T18:30:01.000Z",
+    "validClockInStartingTime": "08:30:00.000",
+    "timeFrameForAValidClockIn": "01:00:00",
+    "validClockOutEndingTime": "18:30:00.000",
+    "timeFrameForAValidClockOut": "01:00:00",
+    "timeSpanExceeded": "00:00:01"
+  },
+  {
+    "latestDate": "2024-04-07",
+    "latestTimeIn": "08:30:00.000",
+    "latestTimeOut": null,
+    "currentDateTime": "2024-04-07T18:31:00.000Z",
+    "validClockInStartingTime": "08:30:00.000",
+    "timeFrameForAValidClockIn": "01:00:00",
+    "validClockOutEndingTime": "18:30:00.000",
+    "timeFrameForAValidClockOut": "01:00:00",
+    "timeSpanExceeded": "00:01:00"
+  },
+  {
+    "latestDate": "2024-04-07",
+    "latestTimeIn": "08:30:00.000",
+    "latestTimeOut": null,
+    "currentDateTime": "2024-04-07T19:30:00.000Z",
+    "validClockInStartingTime": "08:30:00.000",
+    "timeFrameForAValidClockIn": "01:00:00",
+    "validClockOutEndingTime": "18:30:00.000",
+    "timeFrameForAValidClockOut": "01:00:00",
+    "timeSpanExceeded": "01:00:00"
+  }
+]

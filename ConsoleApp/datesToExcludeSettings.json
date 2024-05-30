@@ -1,0 +1,15 @@
+{
+  "datesToExclude": {
+    "repeatedDays": [ "Saturday", "Sunday" ],
+    "excludedDates": [
+      {
+        "date": "2024-06-07",
+        "description": "Batalla de Arica y dia de la bandera"
+      },
+      {
+        "date": "2024-07-23",
+        "description": "Dia de la Fuerza Aérea del Perú"
+      }
+    ]
+  }
+}
